@@ -1,6 +1,4 @@
 # rsschool.cv
-# rsschool-cv
-My CV-markdown
 # [Rolling Scopes School](https://app.rs.school)
 - - -
 # Oksana Iukhymchuk
@@ -41,7 +39,7 @@ I have taken several courses on Udemy, watched and practiced a lot of workshops 
 C1, I majored in translating and teaching English. I have over 20 years of experience in communicating with native speakers and teaching in English.
 - - -
 ### **Code Example**
-*I have written the code for this game fully by myself. A player needs to combine syllables in order to make words seen in the pictures. If the word is correct, they can see a picture next to it and a checkmark. But if the word is incorrect, it is marked wrong. They can keep working and checking their work until they make all the words.*
+*I have written the code for this game fully by myself. A player needs to combine syllables to make words seen in the pictures. If the word is correct, they can see a picture next to it and a checkmark. But if the word is incorrect, it is marked wrong. They can keep working and checking their work until they make all the words.*
 #### **It can be played here: [Match Syllables Game](https://ilearnrussian.net/alphabet/drag-drop/drag-drop-syllables_al1.html)**
 ![Match Syllables Game](match-syllables-game.png)
 #### Part 1
