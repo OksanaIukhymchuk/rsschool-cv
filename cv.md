@@ -21,6 +21,9 @@ I started learning to code a year and a half ago when we all stayed home for qua
 ### **Work Experience**
 I have not worked as programmer yet, except the site I have been creating: [ilearnRussian](https:www.ilearnrussian.net). I have been teaching Russian for foreigners and history of Ukraine for foreigners. 
 - - -
+### **English Level** 
+C1, I majored in translating and teaching English. I have over 20 years of experience in communicating with native speakers and teaching in English.
+- - -
 ### **Education** 
 I have taken several courses on Udemy, watched and practiced a lot of workshops on youtube. My favorite teachers are:
 * John Smilga (htmls&css) and 
@@ -35,9 +38,7 @@ I have taken several courses on Udemy, watched and practiced a lot of workshops 
 * [ ] [RS School Course "JS/FE. Stage 0"](https://app.rs.school/) (in progress);
 * [ ] [Ilya Kantor JavaScript Book](https://learn.javascript.ru/) (in progress);
 - - -
-### **English Level** 
-C1, I majored in translating and teaching English. I have over 20 years of experience in communicating with native speakers and teaching in English.
-- - -
+
 ### **Code Example**
 *I have written the code for this game fully by myself. A player needs to combine syllables to make words seen in the pictures. If the word is correct, they can see a picture next to it and a checkmark. But if the word is incorrect, it is marked wrong. They can keep working and checking their work until they make all the words.*
 #### **It can be played here: [Match Syllables Game](https://ilearnrussian.net/alphabet/drag-drop/drag-drop-syllables_al1.html)**
