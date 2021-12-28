@@ -37,8 +37,8 @@ I have taken several courses on Udemy, watched and practiced a lot of workshops 
 * [ ] [Dmitri Trepachov JS course](http://code.mu/ru/javascript/book/prime/) (in progress);
 * [ ] [RS School Course "JS/FE. Stage 0"](https://app.rs.school/) (in progress);
 * [ ] [Ilya Kantor JavaScript Book](https://learn.javascript.ru/) (in progress);
-- - -
 
+- - -
 ### **Code Example**
 *I have written the code for this game fully by myself. A player needs to combine syllables to make words seen in the pictures. If the word is correct, they can see a picture next to it and a checkmark. But if the word is incorrect, it is marked wrong. They can keep working and checking their work until they make all the words.*
 #### **It can be played here: [Match Syllables Game](https://ilearnrussian.net/alphabet/drag-drop/drag-drop-syllables_al1.html)**
