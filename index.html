@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <main>
+<h1 id="-rolling-scopes-school-https-app-rs-school-"><a href="https://app.rs.school">Rolling Scopes School</a></h1>
+<hr>
+<h2 id="oksana-iukhymchuk">Oksana Iukhymchuk</h2>
+<hr>
+<h3 id="-contacts-"><strong>Contacts</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>location</strong></th>
+<th><em>Kyiv, Ukraine</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>email</strong></td>
+<td><em>iukhymchuk.oksana@gmail.com</em></td>
+</tr>
+<tr>
+<td><strong>telegram</strong></td>
+<td><em>@oksanaiu</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="-information-"><strong>Information</strong></h3>
+<p>My goal is to learn frontend and have the skills to create fun interactive sites, especially for educational purposes. I am passionate about growing professionally and learning from the people who already program in JavaScript. This is the reason I became the part of RS School JS Course. </p>
+<hr>
+<h3 id="-skills-"><strong>Skills</strong></h3>
+<p>I started learning to code a year and a half ago when we all stayed home for quarantine. I have some basic knowledge in html, css, and js. I started to apply my knowledge creating the site: <a href="https://www.ilearnrussian.net">IlearnRussian.net</a>. It has examples of the code I wrote on my own, the code I adapted from workshops I took, the code modified by a mentor, and the free code I found on the internet and changed a little. These are my first efforts so do not judge me harshly.  </p>
+<hr>
+<h3 id="-work-experience-"><strong>Work Experience</strong></h3>
+<p>I have not worked as programmer yet, except the site I have been creating: <a href="https:www.ilearnrussian.net">ilearnRussian</a>. I have been teaching Russian for foreigners and history of Ukraine for foreigners. </p>
+<hr>
+<h3 id="-education-"><strong>Education</strong></h3>
+<p>I have taken several courses on Udemy, watched and practiced a lot of workshops on youtube. My favorite teachers are:</p>
+<ul>
+<li>John Smilga (htmls&amp;css) and </li>
+<li>Dmitri Trepachov (Дмитрий Трепачёв, js). </li>
+</ul>
+<h4 id="i-took-the-following-courses-">I took the following courses:</h4>
+<ul>
+<li> Udemy HTML&amp;CSS Course - John Smilga;</li>
+<li> Udemy Javascript Course - Jonas Schmedtmann;</li>
+<li> HTML, CSS, JS Tutorials on the <a href="https://www.w3schools.com">w3schools</a>;</li>
+<li> <a href="http://code.mu/ru/javascript/book/prime/">Dmitri Trepachov JS course</a> (in progress);</li>
+<li> <a href="https://app.rs.school/">RS School Course &quot;JS/FE. Stage 0&quot;</a> (in progress);</li>
+<li> <a href="https://learn.javascript.ru/">Ilya Kantor JavaScript Book</a> (in progress);</li>
+</ul>
+<hr>
+<h3 id="-english-level-"><strong>English Level</strong></h3>
+<p>C1, I majored in translating and teaching English. I have over 20 years of experience in communicating with native speakers and teaching in English.</p>
+<hr>
+<h3 id="-code-example-"><strong>Code Example</strong></h3>
+<p><em>I have written the code for this game fully by myself. A player needs to combine syllables in order to make words seen in the pictures. If the word is correct, they can see a picture next to it and a checkmark. But if the word is incorrect, it is marked wrong. They can keep working and checking their work until they make all the words.</em></p>
+<h4 id="-it-can-be-played-here-match-syllables-game-https-ilearnrussian-net-alphabet-drag-drop-drag-drop-syllables_al1-html-"><strong>It can be played here: <a href="https://ilearnrussian.net/alphabet/drag-drop/drag-drop-syllables_al1.html">Match Syllables Game</a></strong></h4>
+<p class="image"><img src="match-syllables-game.png" alt="Match Syllables Game"></p>
+<h4 id="part-1">Part 1</h4>
+<code><span class="hljs-keyword">let</span> wordBankEasy = [    
+    [<span class="hljs-string">'ко-ко-ко́'</span>, <span class="hljs-string">'cluck-cluck'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/chicken_apng.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/chicken_apng.png'</span>],
+    [<span class="hljs-string">'ма́ма'</span>, <span class="hljs-string">'mom'</span>, <span class="hljs-string">'&lt;img class="picture" src="../alphabet_images/alphabet1/mom_apng.png"&gt;'</span>, <span class="hljs-string">'../alphabet_images/alphabet1/mom_apng.png'</span>],
+    [<span class="hljs-string">'кот'</span>, <span class="hljs-string">'cat'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/cat_apng.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/cat_apng.png'</span>],
+    [<span class="hljs-string">'а́том'</span>, <span class="hljs-string">'atom'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/atom_apng.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/atom_apng.png'</span>],
+    [<span class="hljs-string">'кака́о'</span>, <span class="hljs-string">'hot chocolate'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/hot-chocolate.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/hot-chocolate.png'</span>],
+    [<span class="hljs-string">'мака́ка'</span>, <span class="hljs-string">'macaque'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/macaque.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/macaque.png'</span>],
+    [<span class="hljs-string">'та́ко'</span>, <span class="hljs-string">'taco'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/taco.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/taco.png'</span>],
+    [<span class="hljs-string">'ко́ма'</span>, <span class="hljs-string">'coma'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/coma.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/coma.png'</span>],
+    [<span class="hljs-string">'мак'</span>, <span class="hljs-string">'Mac'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/mac.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/mac.png'</span>],
+    [<span class="hljs-string">'Том'</span>, <span class="hljs-string">'Tom'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/tom.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/tom.png'</span>],
+    [<span class="hljs-string">'То́ма'</span>, <span class="hljs-string">'Toma'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/toma.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/toma.png'</span>],
+    [<span class="hljs-string">'мо́кко'</span>, <span class="hljs-string">'espresso w/ hot milk and chocolate'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/coffee-mocca.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/coffee-mocca.png'</span>],
+];
+
+<span class="hljs-keyword">let</span> wordBankHard = [
+    [<span class="hljs-string">'мат'</span>, <span class="hljs-string">'checkmate'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/checkmate.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/checkmate.png'</span>],        
+    [<span class="hljs-string">'мат'</span>, <span class="hljs-string">'mat'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/mat.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/mat.png'</span>],
+    [<span class="hljs-string">'том'</span>, <span class="hljs-string">'volume'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/volume-marx.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/volume-marx.png'</span>],
+    [<span class="hljs-string">'ток'</span>, <span class="hljs-string">'electrical current'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/electrical-current_apng.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/electrical-current_apng.png'</span>],
+    [<span class="hljs-string">'мак'</span>, <span class="hljs-string">'poppy flower'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/poppies.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/poppies.png'</span>],
+    [<span class="hljs-string">'там'</span>, <span class="hljs-string">'there'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/there.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/there.png'</span>],
+    [<span class="hljs-string">'кто'</span>, <span class="hljs-string">'who'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/who.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/who.png'</span>],
+    [<span class="hljs-string">'ка́ка'</span>, <span class="hljs-string">'poo'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/kaka.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/kaka.png'</span>],
+    [<span class="hljs-string">'мо́ка'</span>, <span class="hljs-string">'geiser coffee maker'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/moka.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/moka.png'</span>],
+];
+
+<span class="hljs-keyword">let</span> wordBankPhrases = [
+    [<span class="hljs-string">'кака́о кота́м'</span>, <span class="hljs-string">'hot chocolate to the cats'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/chocholate-to-cats_apng.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/chocolate-to-cats_apng.png'</span>],
+    [<span class="hljs-string">'кот Том'</span>, <span class="hljs-string">'cat Tom'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/catTom.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/catTom.png'</span>],
+    [<span class="hljs-string">'мак ма́мам'</span>, <span class="hljs-string">'poppies to moms'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/poppies-to-moms.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/poppies-to-moms.png'</span>],
+    [<span class="hljs-string">'та́ко мака́кам'</span>, <span class="hljs-string">'taco for macaques'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/taco-to-macaques.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/taco-to-macaques.png'</span>],
+    [<span class="hljs-string">'тот кот'</span>, <span class="hljs-string">'that cat'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/that-cat.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/that-cat.png'</span>],
+    [<span class="hljs-string">'тот мат'</span>, <span class="hljs-string">'that mat'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/that-mat.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/that-mat.png'</span>],
+    [<span class="hljs-string">'тот мак'</span>, <span class="hljs-string">'that poppy'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/that-poppy.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/that-poppy.png'</span>],
+    [<span class="hljs-string">'та ма́ма'</span>, <span class="hljs-string">'that mom'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/that-mom.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/that-mom.png'</span>],
+    [<span class="hljs-string">'та мака́ка'</span>, <span class="hljs-string">'that macaque'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/that-macaque.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/that-macaque.png'</span>],
+    [<span class="hljs-string">'то кака́о'</span>, <span class="hljs-string">'that cocoa'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/that-hot-chocolate.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/that-hot-chocolate.png'</span>],
+    [<span class="hljs-string">'то та́ко'</span>, <span class="hljs-string">'that taco'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/that-taco.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/that-taco.png'</span>],
+];
+
+
+<span class="hljs-keyword">let</span> wordBankSentences = [
+    [<span class="hljs-string">'Кто там?'</span>, <span class="hljs-string">'Who is there?'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/who-there.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/who-there.png'</span>],
+    [<span class="hljs-string">'Там кот Том.'</span>, <span class="hljs-string">'There is cat Tom there.'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/cat-tom-there.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/cat-tom-there.png'</span>],
+    [<span class="hljs-string">'Там кака́о, а там та́ко.'</span>, <span class="hljs-string">'There is hot chocolate there, and there\'s taco there.'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/hot-chocolate-taco-there.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/hot-chocolate-taco-there.png'</span>],
+    [<span class="hljs-string">'Там ма́ма, а там То́ма.'</span>, <span class="hljs-string">'There is mom, and there is Toma.'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/mom-toma-there.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/mom-toma-there.png'</span>],
+    [`Там кот, а там Том. А там кот Том.`, <span class="hljs-string">'There is the cat, and there is Tom. And there is cat Tom.'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/cat-tom-cattom-there.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/cat-tom-cattom-there.png'</span>],
+    [<span class="hljs-string">'Там та мака́ка, а там - та.'</span>, <span class="hljs-string">'There is that macaque there and there\'s that one. '</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/that-macaque-2.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/that-macaque-2.png'</span>],
+    [<span class="hljs-string">'То та́ко там, а то - там.'</span>, <span class="hljs-string">'That taco is there and that one is there.'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/that-taco-2.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/that-taco-2.png'</span>],
+    [<span class="hljs-string">'Тот кот там, а тот - там.'</span>, <span class="hljs-string">'That cat is there and that one is there.'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/that-cat-2.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/that-cat-2.png'</span>],
+    [<span class="hljs-string">'Тот мак там, а тот - там.'</span>, <span class="hljs-string">'That poppy is there and that one is there.'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/that-poppy-2.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/that-poppy-2.png'</span>],
+];
+
+
+
+<span class="hljs-keyword">let</span> makeWordsSyllables = [
+        [<span class="hljs-string">'ко-ко-ко́'</span>, <span class="hljs-string">'cluck-cluck'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/chicken_apng.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/chicken_apng.png'</span>],
+        [<span class="hljs-string">'ма́ма'</span>, <span class="hljs-string">'mom'</span>, <span class="hljs-string">'&lt;img class="picture" src="../alphabet_images/alphabet1/mom_apng.png"&gt;'</span>, <span class="hljs-string">'../alphabet_images/alphabet1/mom_apng.png'</span>],
+        [<span class="hljs-string">'а́том'</span>, <span class="hljs-string">'atom'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/atom_apng.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/atom_apng.png'</span>],
+        [<span class="hljs-string">'кака́о'</span>, <span class="hljs-string">'hot chocolate'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/hot-chocolate.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/hot-chocolate.png'</span>],
+        [<span class="hljs-string">'мака́ка'</span>, <span class="hljs-string">'macaque'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/macaque.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/macaque.png'</span>],
+        [<span class="hljs-string">'Том'</span>, <span class="hljs-string">'Tom'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/tom.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/tom.png'</span>],
+        [<span class="hljs-string">'та́ко'</span>, <span class="hljs-string">'taco'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/taco.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/taco.png'</span>],
+        [<span class="hljs-string">'ко́ма'</span>, <span class="hljs-string">'coma'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/coma.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/coma.png'</span>],
+        [<span class="hljs-string">'То́ма'</span>, <span class="hljs-string">'Toma'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/toma.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/toma.png'</span>],
+        [<span class="hljs-string">'мо́кко'</span>, <span class="hljs-string">'espresso w/ hot milk and chocolate'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/coffee-mocca.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/coffee-mocca.png'</span>],
+        [<span class="hljs-string">'ка́ка'</span>, <span class="hljs-string">'poo'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/kaka.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/kaka.png'</span>],
+        [<span class="hljs-string">'мо́ка'</span>, <span class="hljs-string">'geiser coffee maker'</span>, `&lt;img <span class="hljs-keyword">class</span>=<span class="hljs-string">"picture"</span> src=<span class="hljs-string">"../alphabet_images/alphabet1/moka.png"</span>&gt;`, <span class="hljs-string">'../alphabet_images/alphabet1/moka.png'</span>],
+];
+
+
+<span class="hljs-keyword">let</span> letterSyllableBank = [<span class="hljs-string">'А'</span>, <span class="hljs-string">'О'</span>, <span class="hljs-string">'М'</span>, <span class="hljs-string">'Т'</span>, <span class="hljs-string">'К'</span>, <span class="hljs-string">'ма'</span>, <span class="hljs-string">'мо'</span>, <span class="hljs-string">'ам'</span>, <span class="hljs-string">'ом'</span>, <span class="hljs-string">'ка'</span>, <span class="hljs-string">'ко'</span>, <span class="hljs-string">'ак'</span>, <span class="hljs-string">'ок'</span>,  <span class="hljs-string">'та'</span>, <span class="hljs-string">'то'</span>, <span class="hljs-string">'ат'</span>, <span class="hljs-string">'от'</span> ]
+<span class="hljs-keyword">let</span> wordBankEasyHard = wordBankEasy.concat(wordBankHard);
+<span class="hljs-keyword">let</span> wordBankHardPhrases = wordBankHard.concat(wordBankPhrases);
+<span class="hljs-keyword">let</span> flashcardsBank = [
+    [<span class="hljs-string">'тот'</span>, <span class="hljs-string">'"that" for nouns ending in a consonant'</span>, <span class="hljs-string">''</span>, <span class="hljs-string">''</span>],
+    [<span class="hljs-string">'та'</span>, <span class="hljs-string">'"that" for nouns ending in "A"'</span>, <span class="hljs-string">''</span>, <span class="hljs-string">''</span>],
+    [<span class="hljs-string">'то'</span>, <span class="hljs-string">'"that" for nouns ending in "O"'</span>, <span class="hljs-string">''</span>, <span class="hljs-string">''</span>],
+    [<span class="hljs-string">'а'</span>, <span class="hljs-string">'but | and'</span>, <span class="hljs-string">''</span>, <span class="hljs-string">''</span>],
+    [<span class="hljs-string">'как'</span>, <span class="hljs-string">'How?'</span>, <span class="hljs-string">''</span>, <span class="hljs-string">''</span>],
+    [<span class="hljs-string">'так'</span>, <span class="hljs-string">'like this'</span>, <span class="hljs-string">''</span>, <span class="hljs-string">''</span>],
+]
+flashcardsBank = flashcardsBank.concat(wordBankEasyHard);
+</code>
+<h4 id="part-2">Part 2</h4>
+<code> <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+        <span class="hljs-keyword">let</span> syllables = [];
+        <span class="hljs-keyword">let</span> syllables1 = [<span class="hljs-string">'ко'</span>, <span class="hljs-string">'ко'</span>, <span class="hljs-string">'ко'</span>, <span class="hljs-string">'ма'</span>, <span class="hljs-string">'ма'</span>, <span class="hljs-string">'а'</span>, <span class="hljs-string">'том'</span>, <span class="hljs-string">'ка'</span>, <span class="hljs-string">'ка'</span>, <span class="hljs-string">'о'</span>, <span class="hljs-string">'ма'</span>, <span class="hljs-string">'ка'</span>, <span class="hljs-string">'ка'</span>, <span class="hljs-string">'том'</span>];
+        <span class="hljs-keyword">let</span> syllables2 = [<span class="hljs-string">'та'</span>, <span class="hljs-string">'ко'</span>, <span class="hljs-string">'ко'</span>, <span class="hljs-string">'ма'</span>, <span class="hljs-string">'то'</span>, <span class="hljs-string">'ма'</span>, <span class="hljs-string">'мок'</span>, <span class="hljs-string">'ко'</span>, <span class="hljs-string">'ка'</span>, <span class="hljs-string">'ка'</span>, <span class="hljs-string">'мо'</span>, <span class="hljs-string">'ка'</span>];  
+        <span class="hljs-keyword">let</span> pictures = [];
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt;makeWordsSyllables.length; i++) {
+            pictures.push(makeWordsSyllables[i][<span class="hljs-number">2</span>]);
+        }
+
+        <span class="hljs-keyword">let</span> randomNumber = <span class="hljs-built_in">Math</span>.ceil(<span class="hljs-built_in">Math</span>.random() *<span class="hljs-number">2</span>);
+        <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'.set-number'</span>).innerHTML = <span class="hljs-string">`<span class="hljs-subst">${randomNumber}</span> / 2`</span>;
+        <span class="hljs-built_in">console</span>.log(randomNumber)
+        syllables = (randomNumber === <span class="hljs-number">1</span>) ? syllables1 : syllables2;
+        syllables = syllables.sort(<span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span> <span class="hljs-built_in">Math</span>.random() - <span class="hljs-number">0.5</span>);    
+
+
+        <span class="hljs-keyword">let</span> imagesDiv = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'.images'</span>);
+        imagesDiv.innerHTML = (randomNumber ===<span class="hljs-number">1</span>) ? pictures.slice(<span class="hljs-number">0</span>, <span class="hljs-number">6</span>).join(<span class="hljs-string">''</span>) : pictures.slice(<span class="hljs-number">6</span>).join(<span class="hljs-string">''</span>);
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code><h4 id="part-3">Part 3</h4>
+<code><span class="hljs-keyword">let</span> words = [];
+        <span class="hljs-keyword">let</span> images = [];
+
+        <span class="hljs-keyword">let</span> parentsContainer = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'.parents-container'</span>);
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i&lt;<span class="hljs-number">6</span>; i++){
+            <span class="hljs-keyword">let</span> parentWrapper = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'div'</span>);
+            parentWrapper.classList.add(<span class="hljs-string">'parent-wrapper'</span>);
+            parentsContainer.appendChild(parentWrapper);
+            <span class="hljs-keyword">let</span> <span class="hljs-built_in">parent</span> = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'div'</span>);
+            <span class="hljs-built_in">parent</span>.classList.add(<span class="hljs-string">'parent'</span>);
+            <span class="hljs-keyword">let</span> result = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'div'</span>);
+            result.classList.add(<span class="hljs-string">'result'</span>);
+            parentWrapper.appendChild(<span class="hljs-built_in">parent</span>);
+            parentWrapper.appendChild(result);
+        }
+
+
+        <span class="hljs-keyword">let</span> panel = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'panel'</span>);
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; syllables.length; i++){
+            <span class="hljs-keyword">let</span> elemWrapper = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'div'</span>);
+            elemWrapper.classList.add(<span class="hljs-string">'elem-wrapper'</span>);
+            panel.appendChild(elemWrapper);
+            <span class="hljs-keyword">let</span> elemDiv = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'div'</span>);
+            elemDiv.classList.add(<span class="hljs-string">'elem'</span>);
+            elemDiv.setAttribute(<span class="hljs-string">'draggable'</span>, <span class="hljs-string">'true'</span>);
+            <span class="hljs-keyword">let</span> elemDivText = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'div'</span>);
+            elemDivText.classList.add(<span class="hljs-string">'elem-text'</span>);
+            elemDiv.appendChild(elemDivText);
+            elemDivText.textContent = <span class="hljs-string">`<span class="hljs-subst">${syllables[i]}</span>`</span>;
+            elemWrapper.appendChild(elemDiv);
+        };
+
+
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt;flashcardsBank.length; i++) {
+            words.push(flashcardsBank[i][<span class="hljs-number">0</span>].replace(<span class="hljs-regexp">/[-Ì]/g</span>, <span class="hljs-string">''</span>).toLowerCase());
+            images.push(flashcardsBank[i][<span class="hljs-number">3</span>]);
+        }
+
+
+       <span class="hljs-keyword">let</span> elems = <span class="hljs-built_in">document</span>.querySelectorAll(<span class="hljs-string">'.elem'</span>);
+       <span class="hljs-keyword">let</span> parents = <span class="hljs-built_in">document</span>.querySelectorAll(<span class="hljs-string">'.parent'</span>);
+       <span class="hljs-keyword">let</span> results = <span class="hljs-built_in">document</span>.querySelectorAll(<span class="hljs-string">'.result'</span>);
+       <span class="hljs-keyword">let</span> score = <span class="hljs-number">0</span>;
+        elems.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">elem</span>) </span>{
+            elem.addEventListener(<span class="hljs-string">'dragstart'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) </span>{
+                current = <span class="hljs-keyword">this</span>;
+            })
+        });
+
+        parents.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">parentElem</span>) </span>{
+            parentElem.addEventListener(<span class="hljs-string">'dragover'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) </span>{
+                event.preventDefault();
+            })
+        });
+
+        parents.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">parentElem</span>) </span>{
+            parentElem.addEventListener(<span class="hljs-string">'drop'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) </span>{
+                <span class="hljs-keyword">this</span>.appendChild(current);
+        })
+        });
+
+        panel.addEventListener(<span class="hljs-string">'dragover'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) </span>{
+            event.preventDefault();
+        });
+
+        panel.addEventListener(<span class="hljs-string">'drop'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) </span>{
+            <span class="hljs-keyword">this</span>.appendChild(current);
+        });
+
+
+        <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'.btn-check'</span>).addEventListener(<span class="hljs-string">'click'</span>, checkResults);
+        <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'.btn-again'</span>).addEventListener(<span class="hljs-string">'click'</span>, init);
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">init</span>(<span class="hljs-params"></span>) </span>{
+            <span class="hljs-built_in">window</span>.location.reload();
+        }
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">checkResults</span>(<span class="hljs-params"></span>) </span>{
+            score = <span class="hljs-number">0</span>;
+            parents.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">parent</span>)</span>{
+                <span class="hljs-keyword">let</span> textContent = <span class="hljs-string">''</span>;
+                <span class="hljs-keyword">let</span> elems = <span class="hljs-built_in">Array</span>.from(<span class="hljs-built_in">parent</span>.querySelectorAll(<span class="hljs-string">'.elem'</span>));
+                elems.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">elem</span>)</span>{
+                    textContent += elem.textContent;
+                })
+                <span class="hljs-comment">// score = 0;</span>
+                <span class="hljs-keyword">if</span>(textContent ===<span class="hljs-string">''</span>) <span class="hljs-keyword">return</span>;
+                <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(words.includes(textContent)) {
+                    <span class="hljs-built_in">parent</span>.parentElement .querySelector(<span class="hljs-string">'.result'</span>).innerHTML = <span class="hljs-string">"âœ”ï¸ Good job!"</span>;
+                    <span class="hljs-comment">// score = score + 1 - words[textContent]</span>
+                    <span class="hljs-built_in">console</span>.log(words.indexOf(textContent));
+                    <span class="hljs-built_in">console</span>.log(textContent);
+                    score++;
+                    <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'.score-paragraph'</span>).innerHTML = <span class="hljs-string">`Your score is &lt;span class="emphasize"&gt;<span class="hljs-subst">${score}</span>&lt;/span&gt; words out of 6.`</span>;
+                    <span class="hljs-built_in">parent</span>.style.backgroundImage = <span class="hljs-string">`url('<span class="hljs-subst">${images[words.indexOf(textContent)]}</span>')`</span>;
+                    <span class="hljs-built_in">parent</span>.style.backgroundPosition = <span class="hljs-string">'right'</span>;
+                    <span class="hljs-built_in">parent</span>.style.backgroundSize = <span class="hljs-string">'contain'</span>;
+                    <span class="hljs-built_in">parent</span>.style.backgroundRepeat = <span class="hljs-string">'no-repeat'</span>;
+                }
+                <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(!words.includes(textContent)) {
+                    <span class="hljs-built_in">parent</span>.parentElement.querySelector(<span class="hljs-string">'.result'</span>).innerHTML = <span class="hljs-string">"âŒ Think again!"</span>;
+                    <span class="hljs-built_in">parent</span>.style.backgroundImage = <span class="hljs-string">''</span>;
+                }
+            });   
+        };
+</code>
+</main>
+</body>
+</html>
