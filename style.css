@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    line-height: 2;
+}
+header {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 10px 20px 0;
+    background: rgb(253, 251, 251);
+}
+@media screen and (max-width: 720px) {
+    header {
+        flex-wrap: wrap;
+    }
+}
+header h1 {
+    margin-bottom: 0px;
+}
+.name-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-photo {
+    height: 150px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 15px;
+}
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-menu li {
+    list-style: none;
+    margin: 5px;
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: darkolivegreen;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+.nav-menu li a:hover {
+    background:rgb(228, 225, 225);
+    text-decoration: underline;
+    transition: 1s;
+}
+
+
+main {
+    width: 90vw;
+    margin: 20px auto;
+    /* padding: 20px; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px lightgrey;
+}
+.image {
+    text-align: center;
+}
+.image img {
+    border-radius: 15px;
+}
+h1, h2  {
+    text-align: center;
+    color: darkolivegreen;
+}
+.contacts ul li {
+    list-style: none;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+article {
+    width: 400px;
+    margin: 30px;
+}
+article h2 {
+    text-align: center;
+    color: darkolivegreen;
+}
+pre {
+    background: rgb(253, 251, 251);
+    padding: 0 0 0 5px;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background: brown; */
+}
+.project {
+    height: 170px;
+    list-style: none;
+    /* background: brown; */
+    text-align: center;
+    /* margin-bottom: 50px; */
+    flex: 1;
+    padding: 5px;
+}
+.project a {
+    text-decoration: none;
+    color: darkolivegreen;
+    font-weight: bold;
+    text-align: center;
+}
+.project img {
+    height: 80%;
+}
+.text {
+    /* text-align: center; */
+}
+footer {
+    margin: 0;
+    background: rgb(228, 225, 225);
+}
+.footer {
+    padding: 30px;
+    margin: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer li {
+    list-style: none;
+}
+.school-logo, .github-logo {
+    height: 100%;
+}
+.year {
+    display: flex;
+    align-items: center;
+}

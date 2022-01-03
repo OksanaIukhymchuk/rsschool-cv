@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <div class="name-photo">
+            <h1 id="oksana-iukhymchuk">Oksana Iukhymchuk</h1>
+            <img class="my-photo" src="images/my-photo.jpg" alt="my-photo">
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li>
+                    <a href="#information">About Myself</a>
+                </li>
+                <li>
+                    <a href="#english">English Language</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#code-example">Code Example</a>
+                </li>
+                <li>
+                    <a href="#projects-examples">My Projects</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="contacts">
+            <h2 id="contacts">Contacts</h2>
+            <ul>
+                <li>
+                    <strong>email</strong>
+                    <span><em>iukhymchuk.oksana@gmail.com</em></span>
+                </li>
+                <li>
+                    <strong>telegram</strong>
+                    <span><em>@oksanaiu</em></span>
+                </li>
+                <li>
+                    <strong>discord</strong>
+                    <span><em>@OksanaIukhymchuk</em></span>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <div class="wrapper">
+            <article>
+                <h2 id="information"><strong>About Myself</strong></h2>
+                <p>My goal is to learn frontend and have the skills to create fun interactive sites, especially for educational purposes. I am passionate about growing professionally and learning from the people who already program in JavaScript. This is the reason I became the part of RS School JS Course. </p>
+            </article>
+            <article>
+                <h2 id="english"><strong>English Language</strong></h2>
+                <p>C1, I majored in translating and teaching English. I have over 20 years of experience in communicating with native speakers and teaching English and in English. However, I acquired another profession: teaching Russian for foreigners, which I have been practicing for over 20 years as well.</p>
+            </article>
+            <article>
+                <h2 id="skills"><strong>Skills</strong></h2>
+                <p>I started learning to code a year and a half ago when we all stayed home for quarantine. Immediately I began applying my knowledge and creating the site: <a href="https://www.ilearnrussian.net">IlearnRussian.net</a>. It has examples of the code I wrote on my own, the code I adapted from workshops on youtube, the code modified by a mentor, and the free code I found on the internet and changed a little. These are my first efforts so do not judge me harshly. At the moment I have basic knowledge in: </p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </article>
+            <article>
+                <h2 id="education"><strong>Education</strong></h2>
+                <p>I have taken several courses on Udemy, watched and practiced a lot of workshops on youtube. My favorite teachers are:</p>
+                <ul>
+                    <li>John Smilga (htmls&amp;css) and </li>
+                    <li>Dmitri Trepachov (Дмитрий Трепачёв, js). </li>
+                </ul>
+                <h3 id="i-took-the-following-courses-">The courses I took:</h3>
+                <ul>
+                    <li> Udemy HTML&amp;CSS Course - John Smilga;</li>
+                    <li> Udemy Javascript Course - Jonas Schmedtmann;</li>
+                    <li> HTML, CSS, JS Tutorials on the <a href="https://www.w3schools.com">w3schools</a>;</li>
+                    <li><a href="http://code.mu/ru/javascript/book/prime/">Dmitri Trepachov JS course</a> (in progress);</li>
+                    <li> <a href="https://app.rs.school/">RS School Course &quot;JS/FE. Stage 0&quot;</a> (in progress);</li>
+                    <li> <a href="https://learn.javascript.ru/">Ilya Kantor JavaScript Book</a> (in progress);</li>
+                </ul>
+            </article>
+            <article>
+                <h2 id="code-example"><strong>Code Example</strong></h2>
+                <p>Enter a color in Russian (i.e. 'красный' or 'жёлтый') and see the page change its color.</p>
+                <pre><code>
+                    
+let textCheck = ["красный", "оранжевый", "жёлтый", 
+    "зелёный", "голубой", "синий", "лиловый"];
+let colorsCheck=["red", "orange", "yellow", "#03C03D", 
+    "#77C5F3", "blue", "#C8A2C9"];
+
+function changeColorsCheck() {
+    let input = document.getElementById('colorName')
+    .value.trim().toLowerCase();
+    for (i = 0; i &lt; textCheck.length; i++) {
+        if (input == textCheck[i]) {
+        document.getElementsByTagName("body")[0]
+        .style.background = colorsCheck[i];
+        } 
+    }
+}
+
+                </code></pre>
+            </article>
+            <article>
+                <h2 id="projects-examples"><strong>My Projects</strong></h2>
+                <ul class="projects">
+                    <li class="project"><a href="https://ilearnrussian.net/stories/suteyev/whimful-cat/index.html"><img src="images/story-reading.png" alt="Story Reading"><div class="text">Story Reading</div></a></li>
+                    <li class="project"><a href="https://ilearnrussian.net/classmates/index-classmates.html"><img src="images/navigation-menu.png" alt="Navigation Menu"><div class="text">Navigation Menu</div></a></li>
+                    <li class="project"><a href="https://ilearnrussian.net/alphabet/alphabet-group1-landing-pages/alphabet1_read_words.html#"><img src="images/flashcards.png" alt="Flashcards"><div class="text">Flashcards</div></a></li>
+                    <li class="project"><a href="https://ilearnrussian.net/alphabet/drag-drop/drag-drop-syllables_al2.html"><img src="images/syllables-words.png" alt="Words out of Syllables"><div class="text">Syllables into Words</div></a></li>
+                    <li class="project"><a href="https://ilearnrussian.net/alphabet/hangman_games/hangman_al2_show_images.html"><img src="images/hangman.png" alt="Hangman"><div class="text">Hangman</div></a></li>
+                    <li class="project"><a href="https://ilearnrussian.net/colors/learn-colors.html"><img src="images/learn-colors.png" alt="Learn Colors"><div class="text">Learn Colors (click "Проверь себя")</div></a></li>
+                </ul>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <ul class="footer">
+            <li><a href="https://github.com/OksanaIukhymchuk"><img class="github-logo" src="images/github-logo.svg" alt="Github Logo"></a></li>
+            <li class="year">2022</li>
+            <li><a  href="https://rs.school/js/"><img class="school-logo" src="./images/rs_school_js.svg" alt="RS School Logo"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
